@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+span {
+    font-size: 60px;
+    -webkit-text-fill-color:transparent;
+    -webkit-box-decoration-break: clone;
+    background-image: url(../../../public/background.png);
+    display: block;
+    line-height: 96px;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+.homeofmovies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
