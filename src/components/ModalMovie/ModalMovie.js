@@ -17,7 +17,6 @@ export default function ModalMovie(props) {
     setIsAddingToFavourites(true);
 
     const dataToSend = {
-      id: props.movieData.id,
       title: props.movieData.title,
       poster_path: props.movieData.poster_path,
       release_date: props.movieData.release_date,

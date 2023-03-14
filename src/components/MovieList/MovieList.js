@@ -9,7 +9,7 @@ export default function MovieList(props) {
       <Row xs={1} md={6} className="g-4">
         {props.movies.map((e) => {
           return (
-            <div key={e.id}>
+            <div>
               <Movie movielist={e} />
             </div>
           )

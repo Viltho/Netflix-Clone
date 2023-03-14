@@ -17,7 +17,7 @@ export default function Movie(props) {
     setShowFlag(false);
   }
   return (
-    <div className='divofcol'>
+    <div key={props.movielist.id} className='divofcol'>
       <Col className='col' style={{width:'40%'}}>
         <Card>
           <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500${props.movielist.poster_path}`} />
