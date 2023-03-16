@@ -6,6 +6,7 @@ import NavbarNew from './components/Navbar/Navbar'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FavList from './components/FavList/FavList';
+import FavModal from './components/FavList/FavModal/FavModal';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/movie' element={<Movie />} />
-          <Route path='/FavList/:id' element={<FavList />} />
+          <Route path='/FavList' element={<FavList />} />
+          <Route path='/FavList/:d' element={<FavModal />} />
         </Routes>
       </main>
     </div>
