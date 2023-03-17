@@ -23,7 +23,7 @@ export default function FavList(props) {
   
   return (
     <div>
-      <Row xs={1} md={6} className="g-4">
+      <Row xs={1} md={6} className="g-4 my-4">
         {moviesArr.map((e) => {
           return (
             <div key ={e.id}>

@@ -6,7 +6,7 @@ export default function MovieList(props) {
 
   return (
     <div className='movielist'>
-      <Row xs={1} md={6} className="g-4">
+      <Row xs={1} md={6} className="g-4 my-4">
         {props.movies.map((e) => {
           return (
             <div>

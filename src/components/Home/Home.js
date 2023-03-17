@@ -15,8 +15,10 @@ export default function Home() {
     sendReq();
   }, [])
   return (
-    <div className='homeofmovies'>
-      <MovieList movies={moviesArr} />
-    </div>
+    <main>
+      <div className='homeofmovies'>
+        <MovieList movies={moviesArr} />
+      </div>
+    </main>
   )
 }
